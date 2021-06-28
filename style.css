@@ -1,0 +1,44 @@
+body{
+    background: black;
+    margin-top: 20px;
+}
+#clock{  
+  
+    position: relative;
+    margin: auto;
+    height: 40vw;
+    width: 40vw; 
+    background: url(img/clock.png) no-repeat;
+    background-size: 100%;
+    box-sizing: 50px;
+    box-shadow: rgba(255, 254, 254, 0.25) 0px 54px 55px, rgba(247, 246, 246, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(252, 251, 251, 0.17) 0px 12px 13px, rgba(250, 249, 249, 0.09) 0px -3px 5px;
+}
+
+#hour, #minute, #second{
+    position: absolute;
+    background: black;
+    border-radius: 10px; 
+    transform-origin: bottom;
+}
+#hour{
+    width: 1.8%;
+    height: 25%;
+    top: 25%;
+    left: 48.85%;
+    opacity: 0.8;  
+}
+#minute{
+    width: 1.6%;
+    height: 30%;
+    top: 19%;
+    left: 48.9%;
+    opacity: 0.8;  
+}
+#second{
+    width: 1%;
+    height: 40%;
+    top: 9%;
+    left: 49.25%;
+    opacity: 0.8; 
+    
+}
